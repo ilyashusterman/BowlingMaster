@@ -10,7 +10,8 @@ public class Ball : MonoBehaviour {
     private Rigidbody ballRigidBody;
     private AudioSource ballSound;
 	// Use this for initialization
-	void Start () {
+	void Start () { //
+        //initiate ball component from prefab on start
         ballRigidBody = GetComponent<Rigidbody>();
         ballSound = GetComponent<AudioSource>();
         ballRigidBody.useGravity = false;
@@ -22,10 +23,10 @@ public class Ball : MonoBehaviour {
     {
  
     }
-
+    //on mouse press give it launchVelocity
     private void OnMouseDown()
     {
-        launch(launchVelocity);
+       // launch(launchVelocity); //for debbuging purpuses
     }
 
 

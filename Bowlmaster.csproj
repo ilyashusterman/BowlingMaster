@@ -76,10 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\START Pack\Scripts\ActionMaster2.cs" />
-    <Compile Include="Assets\START Pack\Scripts\DragLaunch.cs" />
     <Compile Include="Assets\START Pack\Scripts\OurScoreDisplayTest1.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\CameraControll.cs" />
+    <Compile Include="Assets\Scripts\DragLaunch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
